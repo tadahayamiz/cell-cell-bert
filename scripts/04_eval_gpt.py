@@ -28,7 +28,7 @@ from dotenv import load_dotenv
 # Add project root to sys.path to allow importing from src
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from src.CCBERT.utils import convert_boundary_to_replacement
+from src.ccbert.utils import convert_boundary_to_replacement
 
 load_dotenv()
 

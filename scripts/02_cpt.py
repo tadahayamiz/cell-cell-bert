@@ -6,7 +6,7 @@ Description:
     It utilizes the PubMedBERT model and fine-tunes it on domain-specific biomedical text.
     
     This script handles:
-    1. Dynamic data loading from mixed sources (DB/CSV) via `src.CCBERT.data_cpt`.
+    1. Dynamic data loading from mixed sources (DB/CSV) via `src.ccbert.data_cpt`.
     2. Tokenizer adaptation with custom cell-related tokens.
     3. MLM training with schedule-free RAdam optimizer and Early Stopping.
     4. Comprehensive logging of training metrics and loss curves.
@@ -34,7 +34,7 @@ from transformers import (
 # Adjust the path relative to the script location if necessary
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from src.CCBERT.data_cpt import load_cpt_dataset
+from src.ccbert.data_cpt import load_cpt_dataset
 
 def parse_args():
     """Parse command line arguments."""

@@ -28,8 +28,8 @@ from sklearn.model_selection import train_test_split
 # Add the parent directory to sys.path to allow importing from 'src'
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from src.CCBERT.trainer import run_training
-from src.CCBERT.utils import (
+from src.ccbert.trainer import run_training
+from src.ccbert.utils import (
     apply_boundary_tags,
     normalize_boundary_tags,
     convert_boundary_to_replacement,

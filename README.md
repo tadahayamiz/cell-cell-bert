@@ -27,7 +27,7 @@ This repository provides the datasets, models, and design principles established
 Install the latest version directly from the GitHub repository:
 
 ```bash
-pip install git+https://github.com/mizuno-group/CCBERT.git
+pip install git+https://github.com/mizuno-group/ccbert.git
 ```
 
 <!--
